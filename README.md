@@ -19,55 +19,26 @@ A simulation-driven ice cream flavor purchase prediction and analysis system bui
 - **Visualization**  
   Generates bar charts of total flavor purchases from simulation results and saves them as static images.
 
-- **User Authentication**
-  Implemented login and registration functionality.
+- **User Authentication**  
+  Implements login and registration functionality with session management.
 
-- **Templating** 
-  Uses Jinja2 templating engine for rendering HTML pages.
+- **Templating and Routing**  
+  Uses Jinja2 templating engine and Flask Blueprints for modular routing including dynamic URL handling.
 
-- **Dynamic Routing**
-  Supports dynamic URL routing for different pages.
+- **Modular Flask Blueprints**  
+  - Home routes: Manage simulation pages, running simulations, feedback submission, and about pages.  
+  - Login routes: Handle user login, authentication, account creation, updates, and deletion.  
+  - Stats routes: Display statistics, AI prediction results, and various charts.  
+  - Weather type routes: Present charts categorized by weather simulation types (Winter, Summer, Normal).
 
-- **Flask Blueprints for Modular Routing**  
-  - Home routes: Handles simulation pages, running simulations, feedback submission, and about pages.  
-  - Login routes: Manages user login, authentication, account creation, updating, and deletion.  
-  - Stats routes: Displays statistics, AI prediction results, and various charts.  
-  - Weather type routes: Shows charts categorized by weather simulation types (Winter, Summer, Normal).
+- **Charts**  
+  Various charts for winter, summer, normal conditions, and general analytics such as average purchases, truck orders, and purchases over time.
 
-## Charts Included
+- **AI Scripts**  
+  Machine learning models for predicting flavor purchases and truck orders.
 
-- Winter Charts — Various charts representing winter simulation data and flavor counts.  
-- Summer Charts — Various charts representing summer simulation data and flavor counts.  
-- Normal Charts — Various charts representing normal condition simulation data and flavor counts.  
-- General Charts — Includes average purchases, average truck orders, purchases over time, and truck order charts.  
-
-
-## AI Scripts Included
-
-- Flavor Count AI — Predicts flavor purchase patterns using machine learning models.  
-- Truck Order AI — Predicts truck order quantities using AI-based regression models.  
-
-## UI Stylesheets Included
-
-- About Us  
-- Charts  
-- Feedback  
-- Home  
-- Login UI  
-- Navbar  
-- Season Charts  
-- Simulation  
-- Statistics  
-- Stats  
-
-## Templates Included
-
-- AI Stats Templates  
-- Chart Templates  
-- Home Templates  
-- Login Templates  
-- Stats Templates  
-
+- **Templates**  
+  Organized templates for AI stats, charts, home, login, and general statistics views.
 
 ## Getting Started
 
