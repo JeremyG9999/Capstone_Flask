@@ -24,11 +24,11 @@ A simulation-driven ice cream flavor purchase prediction and analysis system bui
 
 ## Advanced Features
 
-- **Charts**  (Matplotlib)
-  Various charts for winter, summer, normal conditions, and general analytics such as average purchases, truck orders, and purchases over time.
+- **Charts**  
+  (Matplotlib) Various charts for winter, summer, normal conditions, and general analytics such as average purchases, truck orders, and purchases over time.
 
 - **AI Scripts**  
-  Machine learning models for predicting flavor purchases and truck orders.
+  (Ski-Kit-Learn) Machine learning models for predicting flavor purchases and truck orders.
 
 ## Getting Started
 
