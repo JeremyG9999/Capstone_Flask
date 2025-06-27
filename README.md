@@ -13,9 +13,6 @@ A simulation-driven ice cream flavor purchase prediction and analysis system bui
 - **Data Persistence**  
   Functions to save simulation data, flavor counts, truck reports, total purchases, and user feedback to the database with conflict resolution.
 
-- **Prediction Model**  
-  Random Forest regression model predicts future flavor purchase patterns based on historical simulation data.
-
 - **Visualization**  
   Generates bar charts of total flavor purchases from simulation results and saves them as static images.
 
@@ -25,7 +22,9 @@ A simulation-driven ice cream flavor purchase prediction and analysis system bui
 - **Templating and Routing**  
   Uses Jinja2 templating engine and Flask Blueprints for modular routing including dynamic URL handling.
 
-- **Charts**  
+## Advanced Features
+
+- **Charts**  (Matplotlib)
   Various charts for winter, summer, normal conditions, and general analytics such as average purchases, truck orders, and purchases over time.
 
 - **AI Scripts**  
